@@ -11,7 +11,7 @@ int main()
 
     cin >> N;
 
-    vector<char> bessie(N);
+    vector<char> fj(N);
 
     // counts for right side
     int h2 = 0;
@@ -20,12 +20,12 @@ int main()
 
     for (int i = 0; i < N; i++)
     {
-        cin >> bessie[i];
-        if (bessie[i] == 'H')
+        cin >> fj[i];
+        if (fj[i] == 'H')
         {
             h2++;
         }
-        else if (bessie[i] == 'P')
+        else if (fj[i] == 'P')
         {
             p2++;
         }
@@ -45,12 +45,12 @@ int main()
     for (int i = 0; i < N; i++)
     {
         // change the current counts
-        if (bessie[i] == 'H')
+        if (fj[i] == 'H')
         {
             h1++;
             h2--;
         }
-        else if (bessie[i] == 'P')
+        else if (fj[i] == 'P')
         {
             p1++;
             p2--;
