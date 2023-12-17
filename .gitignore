@@ -2,6 +2,7 @@
 */bin
 */obj
 *.depend
+*.layout
 *.cbp
 *.png
 *.jpeg
