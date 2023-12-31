@@ -28,6 +28,7 @@ int main()
 
     sort(cows.begin(), cows.end());
 
+    // start finding pairs
     int result = 0;
     for (int i = 0; i < C; i++)
     {
