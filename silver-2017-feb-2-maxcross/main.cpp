@@ -29,6 +29,7 @@ int main()
         }
     }
 
+    // sliding window
     int result = broken;
     for (int i = 1; i <= N-K; i++)
     {
