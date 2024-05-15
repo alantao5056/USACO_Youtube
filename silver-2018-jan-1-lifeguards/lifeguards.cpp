@@ -14,7 +14,7 @@ int main() {
   vector<pii> lg(N);
   for (int i = 0; i < N; i++) {
     cin >> lg[i].first >> lg[i].second;
-  } 
+  }
 
   sort(lg.begin(), lg.end());
   
